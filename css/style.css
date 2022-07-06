@@ -246,3 +246,48 @@ body a {
     padding: 15px 20px 18px 20px;
     border-radius: 6px;
 }
+
+#donation-update{
+    text-align: center;
+    padding-bottom: 150px;
+}
+.donation-update-header{
+    padding-bottom: 40px;
+}
+.donation-update-header h1{
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+.donation-update-header p{
+    font-size: 18px;
+    line-height: 25px;
+}
+.donation-update-email {
+    background-color: #ff59591f;
+    width: 50%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+#email {
+    border: none;
+    background-color: #00000038;
+    color: #000000c4;
+    padding: 15px 30px 15px 15px;
+    border-radius: 8px 0px 0px 8px;
+    font-size: 16px;
+}
+#subscribe {
+    margin-left: -5px;
+    padding: 13px 30px 16px 15px;
+    border: none;
+    font-size: 16px;
+    background-color: #FF5959;
+    color: #ffffff;
+    border-radius: 0px 8px 8px 0px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    cursor: pointer;
+}
