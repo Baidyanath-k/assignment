@@ -40,3 +40,37 @@ body a{
     padding: 15px 20px 18px 20px;
     border-radius: 10px;
 }
+#donate{
+    padding: 150px 0;
+    text-align: center;
+}
+.donate-first{
+
+}
+.donate-first h1{
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+.donate-first p{
+    font-size: 20px;
+}
+.donate-ammount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.donate-ammount h2 {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 35px;
+    padding: 40px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 700;
+    color: #0000008c;
+}
+.donate-ammount-select{
+    background-color: #ff59596b;
+    border: 2px solid #FF5959;
+}
