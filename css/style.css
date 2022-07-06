@@ -15,6 +15,7 @@ body p {
 
 body a {
     font-family: 'Barlow', sans-serif;
+    text-decoration: none;
 }
 
 #header {
@@ -162,4 +163,44 @@ body a {
 }
 .unique-background{
     background-color: #EDF5F6;
+}
+#live-donation{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 150px;
+
+}
+.live-donation-content{
+    width: 50%;
+}
+.live-donation-content h1 {
+    font-size: 45px;
+    line-height: 50px;
+    margin: 30px 0;
+}
+.live-donation-content p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    width: 95%;
+    color: #000000ab;
+}
+.live-donation-content a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #FF5959;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 18px 20px;
+    border-radius: 6px;
+}
+.live-donation-image{
+    width: 50%;
+}
+.live-donation-image img{
+    width: 100%;
+    border-radius: 10px;
 }
