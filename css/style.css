@@ -132,3 +132,34 @@ body a {
     font-size: 18px;
     line-height: 25px;
 }
+
+.donate-plan-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.donate-plan-body-sec{
+    width: 25%;
+    background-color: #ff59592d;
+    padding: 45px 15px;
+    border-radius: 8px;
+}
+.donate-plan-body-sec img{
+    margin-bottom: 20px;
+}
+.donate-plan-body-sec h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.donate-plan-body-sec p{
+    font-size: 17px;
+    line-height: 25px;
+}
+.common{
+    margin: 0px 20px;
+}
+.unique-background{
+    background-color: #EDF5F6;
+}
