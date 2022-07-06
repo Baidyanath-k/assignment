@@ -1,18 +1,23 @@
-*{
+* {
     padding: 0;
-    margin: 0;;
+    margin: 0;
+    ;
 }
-body h1{
+
+body h1 {
     font-family: 'Poppins', sans-serif;
 }
-body p{
+
+body p {
     font-family: 'Barlow', sans-serif;
 
 }
-body a{
+
+body a {
     font-family: 'Barlow', sans-serif;
 }
-#header{
+
+#header {
     background: url(../images/donation1.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -20,16 +25,19 @@ body a{
     text-align: center;
     padding: 150px 0;
 }
+
 #header h1 {
     font-size: 50px;
     text-transform: capitalize;
     color: #ffffff;
 }
-#header p{
+
+#header p {
     font-size: 20px;
     color: #ffffff;
     margin-top: 8px;
 }
+
 #header a {
     display: inline-block;
     text-decoration: none;
@@ -40,26 +48,30 @@ body a{
     padding: 15px 20px 18px 20px;
     border-radius: 10px;
 }
-#donate{
+
+#donate {
     padding: 150px 0;
     text-align: center;
 }
-.donate-first{
 
-}
-.donate-first h1{
+.donate-first {}
+
+.donate-first h1 {
     font-size: 40px;
     text-transform: capitalize;
     margin-bottom: 8px;
 }
-.donate-first p{
+
+.donate-first p {
     font-size: 20px;
 }
-.donate-ammount{
+
+.donate-ammount {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .donate-ammount h2 {
     font-family: 'Poppins', sans-serif;
     margin-top: 35px;
@@ -69,8 +81,37 @@ body a{
     font-size: 25px;
     font-weight: 700;
     color: #0000008c;
+    background-color: #0000000e;
+    margin-left: 15px;
 }
-.donate-ammount-select{
-    background-color: #ff59596b;
+
+.donate-ammount-select {
     border: 2px solid #FF5959;
+}
+
+.other-ammount{
+    margin-top: 40px;;
+}
+
+#taka {
+    display: block;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid #0000003f;
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+}
+#submit {
+    margin-top: 15px;
+    display: inline-block;
+    padding: 12px 10px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    background: #FF5959;
+    border-radius: 5px;
+    color: #ffffff;
 }
