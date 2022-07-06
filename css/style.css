@@ -164,6 +164,33 @@ body a {
 .unique-background{
     background-color: #EDF5F6;
 }
+#donation_gellary{
+    padding-bottom: 150px;
+    overflow: hidden;
+}
+.donation-gellary-header{
+    text-align: center;
+}
+.donation-gellary-header h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.donation-gellary-images{
+    width: 85%;
+    margin: 0 auto;
+}
+.donation-gellary-images img{
+    width: 30%;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+
 #live-donation{
     width: 85%;
     display: flex;
